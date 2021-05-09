@@ -13,7 +13,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     min-height: 100vh;
     align-items: center;
   }
@@ -34,7 +34,7 @@ h1 {
     border: 20px solid rgb(226, 226, 226);
     background: linear-gradient(to top left, rgb(243, 243, 243), #fff);
     border-radius: 50%;
-    margin: 50px auto;
+    margin: 1% auto;
     position: relative;
     padding: 2rem;
     box-shadow:
@@ -42,6 +42,17 @@ h1 {
       inset 0 0 0 5px  rgb(169, 169, 170),
       inset 0 0 15px rgba(0, 0, 0, 0.863),
       0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  @media only screen and (max-width: 1024px){
+    .clock {
+      margin: 4rem auto;
+    }
+  }
+  @media only screen and (max-width: 640px){
+    .clock {
+      margin: 8rem auto;
+    }
   }
 
   em {
