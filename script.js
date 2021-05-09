@@ -21,7 +21,7 @@ const displayDigitalTime = () => {
 
     let mins = (minutes < 10) ? '0' + minutes.toString() : minutes.toString();
     let secs = (seconds < 10) ? '0' + seconds.toString() : seconds.toString(); 
-    let hrs = (hours < 24) ? '0' + hours.toString() : hours.toString(); 
+    let hrs = (hours < 10) ? '0' + hours.toString() : hours.toString(); 
     
     let h3 = document.querySelector('h3');
     h3.textContent = `${hrs} : ${mins} : ${secs}`;

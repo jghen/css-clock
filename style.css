@@ -44,14 +44,9 @@ h1 {
       0 0 10px rgba(0, 0, 0, 0.2);
   }
 
-  @media only screen and (max-width: 1024px){
-    .clock {
-      margin: 4rem auto;
-    }
-  }
   @media only screen and (max-width: 640px){
     .clock {
-      margin: 8rem auto;
+      margin: 4rem auto;
     }
   }
 
