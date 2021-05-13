@@ -1,5 +1,5 @@
 # css-clock
 
-Built width css and javascript.
+Built with css and javascript.
 
 A clock - digital and analog.
